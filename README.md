@@ -14,6 +14,7 @@ An intelligent psychological counseling chatbot with:
 > This is an early learning project maintained primarily as a development record. It does not include complete version management or development history.
 >
 > This repository may not contain all files and dependencies required to run the application. Please review the project structure, file paths, model checkpoints, and configuration before running it.
+
 > [!TIP]
 > The application uses a webcam for real-time emotion recognition. Inference accuracy may be affected by lighting conditions, camera angle, facial position, and the surrounding environment.
 >
