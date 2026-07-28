@@ -10,6 +10,15 @@ An intelligent psychological counseling chatbot with:
   <img src="figures/chatbot.png" width="60%" alt="Chatbot Interface">
 </a>
 
+> [!NOTE]
+> This is an early learning project maintained primarily as a development record. It does not include complete version management or development history.
+>
+> This repository may not contain all files and dependencies required to run the application. Please review the project structure, file paths, model checkpoints, and configuration before running it.
+> [!TIP]
+> The application uses a webcam for real-time emotion recognition. Inference accuracy may be affected by lighting conditions, camera angle, facial position, and the surrounding environment.
+>
+> When training the emotion-recognition model primarily with static images, the difference between controlled training data and real-world webcam input should be considered. 
+
 ## Pipeline
 
 ```text
@@ -25,7 +34,9 @@ Send the combined input to the API with customised prompt settings
         ↓
 Generate and display the response
 ```
-![Chatbot pipeline](figures/chatbot_pipeline.png)
+<a href="figures/chatbot_pipeline.png">
+  <img src="figures/chatbot_pipeline.png" width="50%" alt="Chatbot Pipeline">
+</a>
 
 ## Application Framework
 
