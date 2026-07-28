@@ -23,7 +23,7 @@ Send the combined input to the API with customised prompt settings
         ↓
 Generate and display the response
 ```
-![Chatbot pipeline](figures/chatbot.png)
+![Chatbot pipeline](figures/pipeline.png)
 
 ## Application Framework
 
