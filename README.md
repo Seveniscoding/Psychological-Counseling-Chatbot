@@ -6,7 +6,7 @@ An intelligent psychological counseling chatbot with:
 - An integrated API to provide flexible responses
 - Prompt engineering for customised responses in specific situations
 
-![Chatbot Interface](chatbot.png)
+![Chatbot Interface](figures/chatbot.png)
 
 ## Pipeline
 
@@ -23,7 +23,7 @@ Send the combined input to the API with customised prompt settings
         ↓
 Generate and display the response
 ```
-![Chatbot pipeline](chatbot.png)
+![Chatbot pipeline](figures/chatbot.png)
 
 ## Application Framework
 
@@ -34,12 +34,15 @@ Application
     ├── User interface launch
     └── Emotion recognition
         ├── yolov8_face.py
-        │   └── Face detection using the existing YOLOv8 model and parameters
+        │   ├── Face detection using YOLOv8
+        │   └── yolov8n-face.pt
+        │       └── Externally pretrained face-detection model
         ├── inference.py
-        │   └── Emotion inference using ConvNeXtV2-Pico trained on AffectNet
+        │   ├── Emotion inference using ConvNeXtV2-Pico
+        │   └── checkpoints/run_2025-04-24_18-30/17.pt
+        │       └── Self-trained emotion-recognition model based on the AffectNet dataset
         └── emotion_buffer.py
             └── Saves real-time emotion history and extracts emotion information for chatbot input
-```
 
 ## Emotion Recognition Training
 
