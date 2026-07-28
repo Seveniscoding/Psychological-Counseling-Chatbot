@@ -6,7 +6,9 @@ An intelligent psychological counseling chatbot with:
 - An integrated API to provide flexible responses
 - Prompt engineering for customised responses in specific situations
 
-![Chatbot Interface](figures/chatbot.png)
+<a href="figures/chatbot.png">
+  <img src="figures/chatbot.png" width="60%" alt="Chatbot Interface">
+</a>
 
 ## Pipeline
 
@@ -23,7 +25,7 @@ Send the combined input to the API with customised prompt settings
         ↓
 Generate and display the response
 ```
-![Chatbot pipeline](figures/pipeline.png)
+![Chatbot pipeline](figures/hatbot_pipeline.png)
 
 ## Application Framework
 
